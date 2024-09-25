@@ -48,10 +48,16 @@ AUDIOSERVER_MULTILIB := first
 
 TARGET_VENDOR_PROP += device/redroid/redroid.prop
 
+# PRODUCT_PACKAGES += \
+#    libEGL_angle \
+#    libGLESv1_CM_angle \
+#    libGLESv2_angle \
+#    vulkan.pastel \
+
 PRODUCT_PACKAGES += \
-    libEGL_angle \
-    libGLESv1_CM_angle \
-    libGLESv2_angle \
+    libEGL_swiftshader \
+    libGLESv1_CM_swiftshader \
+    libGLESv2_swiftshader \
     vulkan.pastel \
 
 
